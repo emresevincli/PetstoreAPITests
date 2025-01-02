@@ -3,28 +3,34 @@ package org.petstore.utils;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class RequestUtils {
+public class PetStoreApiClient {
 
-    public static Response createPet(String petJson) {
+    private static final String BASE_URI = "https://petstore.swagger.io/v2";
+
+    public PetStoreApiClient() {
+        RestAssured.baseURI = BASE_URI;
+    }
+
+    public Response createPet(String petJson) {
         return RestAssured.given()
                 .header("Content-Type", "application/json")
                 .body(petJson)
                 .post("/pet");
     }
 
-    public static Response getPet(long petId) {
+    public Response getPet(long petId) {
         return RestAssured.given()
                 .get("/pet/" + petId);
     }
 
-    public static Response updatePet(String petJson) {
+    public Response updatePet(String petJson) {
         return RestAssured.given()
                 .header("Content-Type", "application/json")
                 .body(petJson)
                 .put("/pet");
     }
 
-    public static Response deletePet(long petId) {
+    public Response deletePet(long petId) {
         return RestAssured.given()
                 .delete("/pet/" + petId);
     }

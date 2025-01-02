@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+    <listeners>
+        <listener class-name="utils.TestNGListener" />
+    </listeners>
+    <test name="PositiveTests">
+        <classes>
+            <class name="tests.PetStoreAPIPositiveTests"/>
+        </classes>
+    </test>
+    <test name="NegativeTests">
+        <classes>
+            <class name="tests.PetStoreAPINegativeTests"/>
+        </classes>
+    </test>
+</suite>

@@ -4,29 +4,210 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99465832-e12b-4347-8878-fde61472e472" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="99465832-e12b-4347-8878-fde61472e472" name="Changes" comment="Added all project classes and methods.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/petstore/utils/PetStoreApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/petstore/utils/PetStoreApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PetStoreAPINegativeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PetStoreAPINegativeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PetStoreAPIPositiveTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PetStoreAPIPositiveTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestNGListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestNGListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/TestUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/all-tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/all-tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/negative-tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/negative-tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/positive-tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/positive-tests.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "emresevincli"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/emresevincli/PetstoreAPITests.git",
+    "accountId": "d793a84f-e8f7-4fa6-b4bd-9b78bca89a97"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2r4kQgf01zqgOI54pBhyoL1D3QF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.PetstoreAPITests [clean].executor": "Run",
+    "Maven.PetstoreAPITests [install].executor": "Run",
+    "Maven.PetstoreAPITests [test].executor": "Run",
+    "Maven.PetstoreAPITests [verify].executor": "Run",
+    "Maven.petstore-api-tests [clean].executor": "Run",
+    "Maven.petstore-api-tests [test].executor": "Run",
+    "Maven.petstore-api-tests [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.PetStoreAPINegativeTests.executor": "Run",
+    "TestNG.PetStoreAPINegativeTests.testCreatePetWithoutName.executor": "Run",
+    "TestNG.PetStoreAPINegativeTests.testCreatePetWithoutStatus.executor": "Run",
+    "TestNG.PetStoreAPINegativeTests.testInvalidEndpoint.executor": "Run",
+    "TestNG.PetStoreAPINegativeTests.testInvalidHttpMethod.executor": "Run",
+    "TestNG.PetStoreAPIPositiveTests.executor": "Run",
+    "TestNG.PetStoreAPITests.createPetTest.executor": "Run",
+    "TestNG.PetStoreAPITests.executor": "Run",
+    "TestNG.PetStoreAPITests.getPetTest.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePet.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePetWithInvalidData.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePetWithInvalidIdType.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePetWithInvalidJsonFormat.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePetWithInvalidStatus.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePetWithoutName.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePetWithoutNameAndStatus.executor": "Run",
+    "TestNG.PetStoreAPITests.testCreatePetWithoutStatus.executor": "Run",
+    "TestNG.PetStoreAPITests.testDeletePet.executor": "Run",
+    "TestNG.PetStoreAPITests.testGetPet.executor": "Run",
+    "TestNG.PetStoreAPITests.testInvalidEndpoint.executor": "Run",
+    "TestNG.PetStoreAPITests.testInvalidHttpMethod.executor": "Run",
+    "TestNG.PetStoreAPITests.testUpdatePet.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/emresevincli/IdeaProjects/PetstoreAPITests/src/test",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "XML"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.PetStoreAPIPositiveTests">
+    <configuration name="PetStoreAPINegativeTests.testCreatePetWithoutName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetstoreAPITests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PetStoreAPINegativeTests" />
+      <option name="METHOD_NAME" value="testCreatePetWithoutName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreAPINegativeTests.testCreatePetWithoutStatus" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetstoreAPITests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PetStoreAPINegativeTests" />
+      <option name="METHOD_NAME" value="testCreatePetWithoutStatus" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreAPINegativeTests.testInvalidEndpoint" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetstoreAPITests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PetStoreAPINegativeTests" />
+      <option name="METHOD_NAME" value="testInvalidEndpoint" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreAPINegativeTests.testInvalidHttpMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetstoreAPITests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PetStoreAPINegativeTests" />
+      <option name="METHOD_NAME" value="testInvalidHttpMethod" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreAPIPositiveTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PetstoreAPITests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.PetStoreAPIPositiveTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.PetStoreAPIPositiveTests" />
+        <item itemvalue="TestNG.PetStoreAPINegativeTests.testInvalidHttpMethod" />
+        <item itemvalue="TestNG.PetStoreAPINegativeTests.testInvalidEndpoint" />
+        <item itemvalue="TestNG.PetStoreAPINegativeTests.testCreatePetWithoutName" />
+        <item itemvalue="TestNG.PetStoreAPINegativeTests.testCreatePetWithoutStatus" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,5 +218,9 @@
       <updated>1735825720998</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added all project classes and methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added all project classes and methods." />
   </component>
 </project>
